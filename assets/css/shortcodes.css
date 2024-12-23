@@ -483,18 +483,11 @@
     transform: translateX(-50%);
     left: 50%;
     text-align: center;
-    opacity: 0;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -ms-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease;
+
+    
 }
 
-.tf-card-box:hover .button-place-bid {
-    bottom: 12px;
-    opacity: 1;
-}
+
 
 .tf-card-box .meta-info .name {
     font-weight: 800;
