@@ -1673,7 +1673,7 @@
 }
 
 .flat-pages-title .swiper-3d-7 .tf-card-box .card-media img {
-    height: 338px !important;
+    height: 420px !important;
 }
 
 /* swiper-container */
@@ -6129,7 +6129,7 @@ fieldset.password > i::before {
 
 .slider-3d-page .tf-card-box {
     width: 350px;
-    height: 430px;
+    height: 630px;
 }
 
 .slider-3d-page .swiper-pagination {
