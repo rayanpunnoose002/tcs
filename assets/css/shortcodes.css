@@ -1536,7 +1536,7 @@
 
 /* flat-pages-title */
 .flat-pages-title {
-
+    
     padding-top: 46px;
     padding-bottom: 114px;
     position: relative;
@@ -1581,6 +1581,7 @@
     font-weight: 800;
     text-transform: capitalize;
     line-height: 74px;
+    margin-bottom: 30px;
 }
 
 .pages-title .content p {
