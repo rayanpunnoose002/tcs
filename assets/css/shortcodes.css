@@ -80,9 +80,7 @@
     width: 950px;
 }
 
-.tf-section {
-    padding-bottom: 60px;
-}
+
 
 .tf-section-1 {
     padding-bottom: 20px;
@@ -1581,7 +1579,6 @@
     font-weight: 800;
     text-transform: capitalize;
     line-height: 74px;
-    margin-bottom: 30px;
 }
 
 .pages-title .content p {
@@ -2134,10 +2131,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-color: rgba(22, 22, 22, 1);
+    background-image: linear-gradient(to bottom, #f7fae1, #DFE9AC);
     background-blend-mode: luminosity;
-    background-image: 
-    url(../images/v);
 }
 
 .top-collector .heading-section {

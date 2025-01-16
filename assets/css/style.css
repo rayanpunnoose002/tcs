@@ -112,7 +112,6 @@ time,
 mark,
 audio,
 video {
-    margin        : 0;
     padding       : 0;
     border        : 0;
     outline       : 0;
@@ -1518,7 +1517,7 @@ a:focus {
 /* footer */
 #footer {
     padding: 60px 0 30px;
-    background-color: #111;
+    background-image: linear-gradient(to bottom, #dfe9ac, #DFE9AC);
 }
 
 #footer .widget {
@@ -2535,3 +2534,24 @@ body.background-white .tf-mouse-inner {
 body.background-white .tf-mouse-outer {
     border-color: rgba(22, 22, 22, 1);
 }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #444;
+            font-weight: bold;
+        }
+        .item {
+            font-size: 18px;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 20px;
+            background-color: #96bc87;/* Formal navy blue */
+            color: white; /* White text */
+            font-weight: 500;
+        }
