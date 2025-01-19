@@ -118,7 +118,7 @@ video {
     font-size     : 100%;
     font          : inherit;
     vertical-align: baseline;
-    font-family   : inherit;
+    font-family   : system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size     : 100%;
     font-style    : inherit;
     font-weight   : inherit;
@@ -227,8 +227,8 @@ button,
 input,
 select,
 textarea {
-    font-family            : 'Manrope', sans-serif;
-    color                  : #fff;
+    font-family            : sans-serif;
+    color                  : #000000;
     -webkit-font-smoothing : antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering         : optimizeLegibility;
@@ -1076,7 +1076,7 @@ label.error {
 -------------------------------------------------------------- */
 a {
     text-decoration   : none;
-    color             : #fff;
+    color             : #000000;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition   : all 0.3s ease-in-out;
     -ms-transition    : all 0.3s ease-in-out;
@@ -1517,7 +1517,7 @@ a:focus {
 /* footer */
 #footer {
     padding: 60px 0 30px;
-    background-image: linear-gradient(to bottom, #dfe9ac, #DFE9AC);
+    background-image: linear-gradient(to bottom, #a9be7b, #DFE9AC);
 }
 
 #footer .widget {
@@ -1541,7 +1541,7 @@ a:focus {
 .widget-menu ul li a {
     color: rgba(255, 255, 255, 0.53);;
     font-size: 14px;
-    font-family: 'Azeret Mono';
+    font-family: 'icomoon';
     line-height: 22px;
     position: relative;
 }
@@ -1649,7 +1649,7 @@ a:focus {
 .footer-bottom p {
     color: rgba(255, 255, 255, 0.53);
     font-size: 14px;
-    font-family: 'Azeret Mono';
+    font-family: 'icomoon';
     line-height: 22px;
 }
 
@@ -2215,7 +2215,7 @@ a:focus {
     top: 0;
     left: -340px;
     position: fixed;
-    background-color: #161616;
+   
     z-index: 999999;
     overflow-y: auto;
     -webkit-transition: all 0.5s ease;
@@ -2551,7 +2551,67 @@ body.background-white .tf-mouse-outer {
             margin: 10px 0;
             padding: 10px;
             border-radius: 20px;
-            background-color: #96bc87;/* Formal navy blue */
+            background-color: #7b904b;/* Formal navy blue */
             color: white; /* White text */
             font-weight: 500;
+        }
+        #pictext{
+            color: wheat;
+        }
+        #page{
+            background-image: linear-gradient(to bottom, #7B904B, #BBCF8D);
+        }
+        #header_main{
+            background-image: linear-gradient(to bottom, #7b904b, #809550);
+        }
+        #pgtitle{
+            background-image: linear-gradient(to bottom, #7f944f, #ffffe9); 
+            color: rgb(255, 255, 255);
+        }
+        #serve{
+            font-size: 32px;
+                    font-weight: 800;
+                    line-height: 44px;
+                    text-transform: capitalize;
+                    z-index: 10; color: #000000;
+        }
+        #aboutus{
+            background-image: linear-gradient(to bottom, #7f944f, #DFE9AC); 
+            color: black;
+
+        }
+        #mps{
+            background-image: linear-gradient(to bottom, #e7eebe, #abbf7c);
+        }
+        #mobtextal{
+            display: inline-block; 
+            font-size: 17px; 
+            margin-right: 20px; 
+            font-family: monospace;
+            text-align: center;
+        }
+        #mobtextfont{
+            display: block; 
+            margin-top: 10px; 
+            margin-left: 12px ;
+            font-size: x-large;
+            font-family: Satisfy, serif;
+            font-weight: 900;
+            font-style: normal;
+            
+        }
+        .widget-social{
+            display: flex;
+            align-items: end;
+            flex-direction: row;
+            margin-left: 250px;
+        }
+        #logo{
+            height: 20px;
+            font-size: 17px;
+            margin-right: 20px;
+            font-size: x-large; font-family: Satisfy, serif;
+            font-weight: 400;
+            font-style: normal;
+            color: rgb(255, 255, 255);
         }

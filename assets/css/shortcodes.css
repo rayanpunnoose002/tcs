@@ -1583,8 +1583,8 @@
 
 .pages-title .content p {
     color: rgba(255, 255, 255, 0.53);
-    font-size: 14px;
-    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-family: 'icomoon';
     line-height: 22px;
     max-width: 634px;
     margin: auto;
@@ -1690,7 +1690,8 @@
 }
 
 .flat-pages-title .swiper-slide-active .tf-card-box {
-    box-shadow: 0px 30px 70px 0px #0A0A0A;
+    box-shadow: 0px 30px 70px 0px #d2cbcb;
+
 }
 
 .swiper-pagination.pagination-number .swiper-pagination-bullet {
@@ -2337,7 +2338,7 @@
     padding: 50px 40px;
     margin-left: 5px;
     margin-right: 5px;
-    background-color: rgba(221, 242, 71, 1);
+    background-color:rgb(127 148 79);
     border-radius: 30px;
     overflow: hidden;
     position: relative;
