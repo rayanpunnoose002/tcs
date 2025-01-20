@@ -2661,5 +2661,10 @@ body.background-white .tf-mouse-outer {
             background-color: #000000;
         }
         #baralign{
-            margin-left: 25px;
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px; /* Space between the image and the bars */
+            gap: 5px; 
         }
