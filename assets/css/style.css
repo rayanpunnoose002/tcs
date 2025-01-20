@@ -2582,6 +2582,18 @@ body.background-white .tf-mouse-outer {
 
 
         }
+        #servebg{
+            background-color: #BBCF8D;
+            font-family: Arial, sans-serif;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+
+
+        }
+        .wbg{
+            background-image: linear-gradient(to bottom, #7f944f, #DFE9AC);
+        }
         #mps{
             background-image: linear-gradient(to bottom, #e7eebe, #abbf7c);
         }
