@@ -2606,10 +2606,8 @@ body.background-white .tf-mouse-outer {
         }
         #mobtextfont{
             display: block; 
-            margin-top: 10px; 
-            margin-left: 12px ;
-            font-size: x-large;
-            font-family: Satisfy, serif;
+            margin-top: 10px;
+            font-size: larger;
             font-weight: 900;
             font-style: normal;
             
