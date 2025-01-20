@@ -2678,3 +2678,11 @@ body.background-white .tf-mouse-outer {
             margin-top: 10px; /* Space between the image and the bars */
             gap: 5px; 
         }
+        #colorwheat{
+            color: wheat;
+        }
+        #detailbtn{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
