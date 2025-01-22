@@ -613,10 +613,10 @@
             const message = document.getElementById('order').value;
             
             // WhatsApp number (include country code, no '+' sign)
-            const whatsappNumber = '+919074466220'; // Replace with the desired number
+            const whatsappNumber = '+919778481266'; // Replace with the desired number
             
             // Build the WhatsApp URL
-            const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Hello TCS Fruit and Vegetables,\nI have a new order for you;\nHere are my details:\nCompanyName:${name}\nContactdetails:${Contactdetails}\nEmail:${Email}\nLocation:${address}\norders: \n ${message}`)}`;
+            const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Hello TCS Fruit and Vegetables,\nI have a new order for you;\nHere are my details:\nCompanyName:${name}\nContactdetails:${Contactdetails}\nEmail:${Email}\nLocation:${address}\norders:\n${message}`)}`;
             
             // Redirect to WhatsApp
             window.open(whatsappUrl, '_blank');
