@@ -260,14 +260,14 @@
                                         <input class="style-1" type="email" id="email" placeholder="Email address*" name="email" tabindex="2" value="" aria-required="true" required="">
                                     </fieldset>
                                     <fieldset class="subject">
-                                        <input class="style-1" type="text" id="subject" placeholder="contact detils" name="subject" tabindex="2" value="" aria-required="true" required="">
+                                        <input class="style-1" type="text" id="contact" placeholder="contact detils" name="subject" tabindex="2" value="" aria-required="true" required="">
                                     </fieldset>
                                     <fieldset class="subject">
-                                        <input class="style-1" type="text" id="subject" placeholder="location/address" name="subject" tabindex="2" value="" aria-required="true" required="">
+                                        <input class="style-1" type="text" id="location" placeholder="location/address" name="subject" tabindex="2" value="" aria-required="true" required="">
                                     </fieldset>
                                 </div>
                                 <fieldset class="message">
-                                    <textarea class="style-1" id="message" name="message" rows="4" placeholder="Your order*" tabindex="4" aria-required="true" required=""></textarea>
+                                    <textarea class="style-1" id="message" name="order" rows="4" placeholder="Your order*" tabindex="4" aria-required="true" required=""></textarea>
                                 </fieldset>
                                 <div class="btn-submit">
                                     <button class="tf-button style-1" type="submit">Send order <i class="icon-arrow-up-right2"></i></button>
@@ -607,13 +607,16 @@
             
             // Get form data
             const name = document.getElementById('name').value;
-            const message = document.getElementById('message').value;
+            const Contactdetails=document.getElementById('contact').value
+            const Email= document.getElementById('email').value
+            const address=document.getElementById('loaction').value
+            const message = document.getElementById('order').value;
             
             // WhatsApp number (include country code, no '+' sign)
             const whatsappNumber = '+919074466220'; // Replace with the desired number
             
             // Build the WhatsApp URL
-            const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Name: ${name}\nMessage: ${message}`)}`;
+            const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Hello TCS Fruit and Vegetables👋, I have a new order for you; here are my details: \nCompanyName: ${name}\n Contactdetails:${Contactdetails}\nEmail:${Email}\naddress:${address} orders: ${message}`)}`;
             
             // Redirect to WhatsApp
             window.open(whatsappUrl, '_blank');
