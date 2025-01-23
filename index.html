@@ -247,7 +247,7 @@
                         <div class="col-md-12">
                             <div class="heading-section-1">
                                 <h2 class="tf-title pb-20">Order Here</h2>
-                                <p class="pb-40">Give us the order and your detils</p>
+                                <p class="pb-40">First Order Here</p>
                             </div>
                         </div>
                         <div class="col-12">
@@ -256,14 +256,8 @@
                                     <fieldset class="name">
                                         <input class="style-1" type="text" id="name" placeholder="Company name*" name="name" tabindex="2" value="" aria-required="true" required="">
                                     </fieldset>
-                                    <fieldset class="email">
-                                        <input class="style-1" type="email" id="email" placeholder="Email address*" name="email" tabindex="2" value="" aria-required="true" required="">
-                                    </fieldset>
                                     <fieldset class="subject">
                                         <input class="style-1" type="text" id="contact" placeholder="contact detils" name="subject" tabindex="2" value="" aria-required="true" required="">
-                                    </fieldset>
-                                    <fieldset class="subject">
-                                        <input class="style-1" type="text" id="location" placeholder="location/address" name="subject" tabindex="2" value="" aria-required="true" required="">
                                     </fieldset>
                                 </div>
                                 <fieldset class="message">
@@ -601,27 +595,7 @@
     </div>
 
     <!-- Javascript -->
-    <script>
-        document.getElementById('whatsappForm').addEventListener('submit', function(e) {
-            e.preventDefault(); // Prevent the form from submitting normally
-            
-            // Get form data
-            const name = document.getElementById('name').value;
-            const Contactdetails=document.getElementById('contact').value
-            const Email= document.getElementById('email').value
-            const address=document.getElementById('location').value
-            const message = document.getElementById('order').value;
-            
-            // WhatsApp number (include country code, no '+' sign)
-            const whatsappNumber = '+919778481266'; // Replace with the desired number
-            
-            // Build the WhatsApp URL
-            const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Hello TCS Fruit and Vegetables,\nI have a new order for you;\nHere are my details:\nCompanyName:${name}\nContactdetails:${Contactdetails}\nEmail:${Email}\nLocation:${address}\norders:\n${message}`)}`;
-            
-            // Redirect to WhatsApp
-            window.open(whatsappUrl, '_blank');
-        });
-    </script>
+    <script src="./assets/js/order.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
