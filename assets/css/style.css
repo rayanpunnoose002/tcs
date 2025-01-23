@@ -897,12 +897,15 @@ label.error {
     display: block;
 }
 .relative {
-    justify-content:center ;
-    align-items: center;
-    display: flex
+    position: relative;
 }
 .absolute {
     position: absolute;
+}
+.centeritem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .fixed {
     position: fixed !important;
