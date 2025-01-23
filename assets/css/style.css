@@ -897,7 +897,9 @@ label.error {
     display: block;
 }
 .relative {
-    position: relative;
+    justify-content:center ;
+    align-items: center;
+    display: flex
 }
 .absolute {
     position: absolute;
