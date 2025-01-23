@@ -2199,13 +2199,43 @@
     grid-gap: 30px;
 }
 
-.tf-author-box.style-2.type-1 {
-    padding: 24px;
-    border-radius: 20px;
-    background: #232323;
-    margin-bottom: 0;
-    border: none;
+.parent-container {
+    display: flex; /* Enable flexbox layout for horizontal alignment */
+    flex-wrap: nowrap; /* Prevent wrapping to the next row */
+    gap: 10px; /* Add spacing between items */
+    justify-content: center; /* Align items to the left */
+    align-items: center; /* Vertically align items */
+    overflow-x: auto; /* Enable horizontal scrolling if content exceeds container width */
+    white-space: nowrap; /* Ensure items stay in one line */
+    padding: 10px; /* Add padding around the container */
+    scrollbar-width: none; /* Optional: style the scrollbar */
 }
+
+.tf-author-box.style-2.type-1 {
+    padding: 10px;
+    border-radius: 20px;
+    background: #809550;
+    margin: 0;
+    border: none;
+    width: 177px; /* Fixed width for each box */
+    box-sizing: border-box; /* Include padding and border in width */
+    flex-shrink: 0;
+    height: 172px;
+}
+
+/* Optional: Customize scrollbar for better appearance */
+.parent-container::-webkit-scrollbar {
+    height: 8px; /* Adjust scrollbar height */
+}
+.parent-container::-webkit-scrollbar-thumb {
+    background: #555; /* Scrollbar color */
+    border-radius: 10px; /* Rounded scrollbar edges */
+}
+.parent-container::-webkit-scrollbar-track {
+    background: #232323; /* Scrollbar track color */
+}
+
+
 
 .tf-author-box.style-2.type-1 .author-avatar {
     width: 70px;
